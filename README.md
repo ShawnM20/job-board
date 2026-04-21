@@ -1,3 +1,4 @@
+<img width="1892" height="863" alt="job-board landing page" src="https://github.com/user-attachments/assets/bf590da5-ddbb-4c79-a46c-c39fcc068cd5" />
 # JobBoard 🧑‍💼
 
 A full-stack job board web application built as a portfolio project. Employers can post and manage job listings, and applicants can browse openings and submit applications with resume uploads — all backed by a RESTful API with JWT authentication.
@@ -38,7 +39,7 @@ A full-stack job board web application built as a portfolio project. Employers c
 
 | Job Listings | Job Details | Apply Modal |
 |---|---|---|
-| ![Job Listings](screenshots/jobs.png) | ![Job Details](screenshots/details.png) | ![Apply](screenshots/apply.png) |
+| ![Job Listings](C:\Users\shawn\OneDrive\Pictures\Screenshots\job-board landing page.png) | "C:\Users\shawn\OneDrive\Pictures\Screenshots\company sign up page.png" | ![Apply](screenshots/apply.png) |
 
 ---
 
