@@ -9,6 +9,8 @@ import Login from './pages/Login';
 import CompanyLogin from './pages/CompanyLogin';
 import CompanyDashboard from './pages/CompanyDashboard';
 import Profile from './pages/Profile';
+import TermsOfService from './pages/TermsOfService';
+import PrivacyPolicy from './pages/PrivacyPolicy';
 import MobileMenu from './components/MobileMenu';
 
 function App() {
@@ -113,6 +115,8 @@ function App() {
           <Route path="/create" element={<CreateJob />} />
           <Route path="/applications" element={<Applications />} />
           <Route path="/profile" element={<Profile />} />
+          <Route path="/terms" element={<TermsOfService />} />
+          <Route path="/privacy" element={<PrivacyPolicy />} />
           <Route path="/job/:id" element={<JobDetails />} />
           <Route path="/login" element={<Login />} />
           <Route path="/company-login" element={<CompanyLogin />} />

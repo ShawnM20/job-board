@@ -155,6 +155,26 @@ const MobileMenu = ({ isOpen, onClose }) => {
                 </Link>
               </div>
             )}
+            
+            {/* Legal Links */}
+            <div className="mt-6 pt-6 border-t border-gray-200">
+              <div className="grid grid-cols-2 gap-4">
+                <Link 
+                  to="/terms" 
+                  onClick={onClose}
+                  className="text-center text-gray-600 hover:text-indigo-600 transition-colors text-sm"
+                >
+                  Terms of Service
+                </Link>
+                <Link 
+                  to="/privacy" 
+                  onClick={onClose}
+                  className="text-center text-gray-600 hover:text-indigo-600 transition-colors text-sm"
+                >
+                  Privacy Policy
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </div>
