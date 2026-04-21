@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+/* Force professional layout */
+:root {
+  background-color: #f9fafb;
+}
+
+body {
+  margin: 0;
+  text-align: left !important;
+}
+
+#root {
+  width: 100%;
+  margin: 0;
+}
